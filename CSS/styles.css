@@ -1,19 +1,30 @@
 body {
     font-family: "roboto", sans-serif;
-    font-weight: 700;
+    font-weight:normal;
+    font-style: normal;
     color: #434455;
+    font-size: 16px;
 }
 .heading {
     background-color: #2E2F42
 }
 h1 {
     color: white;
+    font-weight: bold;
+}
+h2 {
+    font-weight: bold;
+}
+h3 {
+    font-weight: 500;
 }
 a {
     text-decoration: none;
 }
 button {
     cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 4%;
 }
 .heading button {
     background-color: #4D5AE5;
@@ -30,4 +41,41 @@ button {
 }
 .navbar ul li a:hover {
     color: #404BBF;
+}
+.address ul li a:hover {
+    color: #404BBF;
+}
+.team {
+    background-color: #F4F4FD;
+}
+ul {
+    list-style-type: none;
+}
+.footer a:active { 
+    color: #404BBF;
+    text-decoration: underline;
+}
+/* .address ul li {
+    font-style: normal;
+} */
+.navbar ul li {
+    font-weight: 500;
+}
+.navbar > a {
+    font-family: "Raleway";
+    color: #2E2F42;
+}
+.navbar a span{
+    color: #4D5AE5
+}
+.footer > a {
+    font-family: "Raleway";
+    color: #F4F4FD
+}
+.footer a span {
+    color: #4D5AE5;
+}
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
 }
