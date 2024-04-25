@@ -1,0 +1,33 @@
+body {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    color: #434455;
+}
+.heading {
+    background-color: #2E2F42
+}
+h1 {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+.heading button {
+    background-color: #4D5AE5;
+    color: white;
+}
+.navbar a:active {
+    color: #404BBF;
+    text-decoration: underline;
+}
+/* Hover Stateler */
+.heading button:hover {
+    background-color: #404BBF;
+    color: white;
+}
+.navbar ul li a:hover {
+    color: #404BBF;
+}
