@@ -1,5 +1,5 @@
 body {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight:normal;
     font-style: normal;
     color: #434455;
@@ -32,7 +32,7 @@ button {
     background-color: #4D5AE5;
     color: white;
 }
-.navbar a:active {
+.nav_bar .logo_nav:active {
     color: #404BBF;
     text-decoration: underline;
 }
@@ -41,7 +41,7 @@ button {
     background-color: #404BBF;
     color: white;
 }
-.navbar ul li a:hover {
+.nav_bar ul .stp li a:hover {
     color: #404BBF;
 }
 .address ul li a:hover {
@@ -53,7 +53,7 @@ button {
 ul {
     list-style-type: none;
 }
-.footer a:active { 
+.footer .logo_footer:active { 
     color: #404BBF;
     text-decoration: underline;
 }
@@ -61,24 +61,36 @@ ul {
     font-style: normal;
     font-family: "Roboto";
 }
-.navbar ul li {
+.nav_bar ul .stp li {
     font-weight: 500;
 }
-.navbar > a {
-    font-family: "Raleway";
+.nav_bar .logo_nav .logo_studio_nav {
     color: #2E2F42;
 }
-.navbar a span{
-    color: #4D5AE5
-}
-.footer > a {
-    font-family: "Raleway";
-    color: #F4F4FD
-}
-.footer a span {
+.nav_bar .logo_nav {
+    font-family: "Raleway", sans-serif;
     color: #4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer .logo_footer {
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    font-weight: 700;
+}
+.footer .logo_footer .logo_studio_footer {
+    color: #F4F4FD;
 }
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
+}
+.nav_bar ul .stp li a{
+    color: #2E2F42;
+}
+.address ul li a {
+    color: #434455;
 }
