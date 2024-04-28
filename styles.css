@@ -114,3 +114,9 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
 }
+.address .info {
+    letter-spacing: 0.02em;
+}
+.address .info:focus {
+    color:#404BBF;
+}
