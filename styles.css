@@ -96,10 +96,10 @@ ul {
 .address a {
     color: #434455;
 }
-.nav ul li .studio {
+.nav ul li .stp {
     letter-spacing: 0.02em;
 }
-.nav ul .studio:focus {
+.nav ul .stp:focus {
     color: #404BBF;
 }
 .address .mail {
