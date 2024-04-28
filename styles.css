@@ -32,7 +32,7 @@ button {
     background-color: #4D5AE5;
     color: white;
 }
-.nav_bar .logo_nav:active {
+.nav .logo_nav:active {
     color: #404BBF;
     text-decoration: underline;
 }
@@ -41,7 +41,7 @@ button {
     background-color: #404BBF;
     color: white;
 }
-.nav_bar ul .stp li a:hover {
+.nav ul li .stp:hover {
     color: #404BBF;
 }
 .address ul li a:hover {
@@ -61,13 +61,13 @@ ul {
     font-style: normal;
     font-family: "Roboto";
 }
-.nav_bar ul .stp li {
+.nav ul .stp {
     font-weight: 500;
 }
-.nav_bar .logo_nav .logo_studio_nav {
+.nav .logo_nav .logo_studio_nav {
     color: #2E2F42;
 }
-.nav_bar .logo_nav {
+.nav .logo_nav {
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
     font-weight: 700;
@@ -88,9 +88,14 @@ ul {
     background-color: #2E2F42;
     color: #F4F4FD;
 }
-.nav_bar ul .stp li a{
+.nav ul .stp{
     color: #2E2F42;
 }
 .address ul li a {
     color: #434455;
 }
+
+/* Yapılacaklar
+    1) Nav içerisindeki listeyi değiştirip logoyu çıkartıcam içinden
+    2) Yeni listenin ilk elementine href olarak index.html eklenecek
+    3) Etiketleri değişen duruma göre ayarlamak lazım  */
