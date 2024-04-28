@@ -27,7 +27,7 @@ h3 {
 a {
     text-decoration: none;
 }
-.heading .order {
+.heading .service {
     background-color: #4D5AE5;
     color: white;
     cursor: pointer;
@@ -35,7 +35,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.heading .order:focus{
+.heading .service:focus{
     background-color: #404BBF;
 }
 .nav .logo_nav:active {
